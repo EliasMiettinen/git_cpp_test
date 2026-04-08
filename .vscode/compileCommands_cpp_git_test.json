@@ -1,0 +1,37 @@
+[
+	{
+		"file": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_test.Build.cs",
+		"command": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/.vscode/compileCommands_cpp_git_test/cpp_git_test.183.rsp\"",
+		"directory": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_test.cpp",
+		"command": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/.vscode/compileCommands_cpp_git_test/cpp_git_test.183.rsp\"",
+		"directory": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_test.h",
+		"command": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/.vscode/compileCommands_cpp_git_test/cpp_git_test.183.rsp\"",
+		"directory": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_testCharacter.cpp",
+		"command": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/.vscode/compileCommands_cpp_git_test/cpp_git_test.183.rsp\"",
+		"directory": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_testCharacter.h",
+		"command": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/.vscode/compileCommands_cpp_git_test/cpp_git_test.183.rsp\"",
+		"directory": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_testGameMode.cpp",
+		"command": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/.vscode/compileCommands_cpp_git_test/cpp_git_test.183.rsp\"",
+		"directory": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_testGameMode.h",
+		"command": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/.vscode/compileCommands_cpp_git_test/cpp_git_test.183.rsp\"",
+		"directory": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source"
+	}
+]

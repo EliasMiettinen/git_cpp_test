@@ -1,0 +1,26 @@
+Generating report for minidump
+
+Application version 4.27.2.0
+ ... built from changelist 0
+
+OS version Linux 6.8.0-100-generic (network name: eliasworkstation-MS-7B79)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x00000000000009c8"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-RiderGameControl.so!UE4Function_Private::TFunctionRefCaller<FRiderGameControl::FRiderGameControl(rd::Lifetime, JetBrains::EditorPlugin::RdEditorModel const&, FRiderGameControlActionsCache&)::$_11::operator()() const::'lambda'(JetBrains::EditorPlugin::RdEditorModel const&), void (JetBrains::EditorPlugin::RdEditorModel const&)>::Call(void*, JetBrains::EditorPlugin::RdEditorModel const&) [/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/Function.h:548]
+libUE4Editor-RD.so!rd::SingleThreadSchedulerBase::PoolTask::operator()(int) const [/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Plugins/Marketplace/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/SingleThreadSchedulerBase.cpp:19]
+libUE4Editor-RD.so!std::__1::packaged_task<void (int)>::operator()(int) [/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/ThirdParty/Linux/LibCxx/include/c++/v1/future:2214]
+libUE4Editor-RD.so!ctpl::thread_pool::set_thread(int)::'lambda'()::operator()() const [/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/../Plugins/Marketplace/Developer/RiderLink/Source/RD/thirdparty/CTPL/include/ctpl_stl.h:218]
+libUE4Editor-RD.so!void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, ctpl::thread_pool::set_thread(int)::'lambda'()> >(void*) [/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/ThirdParty/Linux/LibCxx/include/c++/v1/thread:291]
+libc.so.6!UnknownFunction(0x9caa3)
+libc.so.6!UnknownFunction(0x129c6b)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

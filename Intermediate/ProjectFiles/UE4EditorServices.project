@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="UE4EditorServices">
+  <File Name="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Programs/Mac/UE4EditorServices/UE4EditorServices.Target.cs" />
+  <File Name="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Programs/Mac/UE4EditorServices/UE4EditorServices.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <VirtualDirectory Name="Linux">
+      <File Name="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Programs/Mac/UE4EditorServices/Private/Linux/UE4EditorServicesMain.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Mac">
+      <File Name="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Programs/Mac/UE4EditorServices/Private/Mac/UE4EditorServicesAppDelegate.cpp" />
+      <File Name="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Programs/Mac/UE4EditorServices/Private/Mac/UE4EditorServicesAppDelegate.h" />
+      <File Name="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Programs/Mac/UE4EditorServices/Private/Mac/UE4EditorServicesMain.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Windows">
+      <File Name="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Programs/Mac/UE4EditorServices/Private/Windows/UE4EditorServicesMain.cpp" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4EditorServices-Linux-Debug" />
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4EditorServices-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4EditorServices-Linux-DebugGame" />
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4EditorServices-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4EditorServices" />
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4EditorServices" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4EditorServices-Linux-Shipping" />
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4EditorServices-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4EditorServices-Linux-Test" />
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4EditorServices-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UE4EditorServices Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

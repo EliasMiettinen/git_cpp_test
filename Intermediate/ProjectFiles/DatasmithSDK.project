@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="DatasmithSDK">
+  <File Name="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/DatasmithSDK.Target.cs" />
+  <File Name="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/DatasmithSDK.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private/DatasmithSDK.cpp" />
+    <File Name="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private/DatasmithSDK.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Debug" />
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-DebugGame" />
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK" />
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Shipping" />
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Test" />
+      <General WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

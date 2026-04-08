@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="cpp_git_testEditor">
+  <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test.Target.cs" />
+    <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_testEditor.Target.cs" />
+    <VirtualDirectory Name="cpp_git_test">
+      <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_test.Build.cs" />
+      <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_test.cpp" />
+      <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_test.h" />
+      <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_testCharacter.cpp" />
+      <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_testCharacter.h" />
+      <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_testGameMode.cpp" />
+      <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_testGameMode.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Config/DefaultEditor.ini" />
+    <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Config/DefaultEditorPerProjectUserSettings.ini" />
+    <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Config/DefaultEngine.ini" />
+    <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Config/DefaultGame.ini" />
+    <File Name="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Config/DefaultInput.ini" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject&quot; -game" WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <General CommandArguments="&quot;/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject&quot; -game" WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Debug -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject&quot; -game" WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject&quot; -game" WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux DebugGame -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject&quot; -game" WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject&quot; -game" WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Development -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject&quot; -game" WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <General CommandArguments="&quot;/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject&quot; -game" WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Shipping -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject&quot; -game" WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <General CommandArguments="&quot;/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject&quot; -game" WorkingDirectory="/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</BuildCommand>
+        <CleanCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean</CleanCommand>
+        <RebuildCommand>/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject" -clean
+/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh cpp_git_testEditor Linux Test -project="/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

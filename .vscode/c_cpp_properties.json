@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "cpp_git_testEditor Editor Linux Development (cpp_git_test)",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/.vscode/compileCommands_cpp_git_test.json"
+		},
+		{
+			"name": "Linux",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/.vscode/compileCommands_Default.json"
+		}
+	]
+}

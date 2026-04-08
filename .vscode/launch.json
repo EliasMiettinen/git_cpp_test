@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "cpp_git_test (Debug)",
+			"request": "launch",
+			"preLaunchTask": "cpp_git_test Linux Debug Build",
+			"program": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Binaries/Linux/cpp_git_test-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "cpp_git_test (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "cpp_git_test Linux DebugGame Build",
+			"program": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Binaries/Linux/cpp_git_test-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "cpp_git_test (Development)",
+			"request": "launch",
+			"preLaunchTask": "cpp_git_test Linux Development Build",
+			"program": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Binaries/Linux/cpp_git_test",
+			"args": [
+			],
+			"cwd": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "cpp_git_test (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "cpp_git_test Linux Shipping Build",
+			"program": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Binaries/Linux/cpp_git_test-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "cpp_git_test (Test)",
+			"request": "launch",
+			"preLaunchTask": "cpp_git_test Linux Test Build",
+			"program": "/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Binaries/Linux/cpp_git_test-Linux-Test",
+			"args": [
+			],
+			"cwd": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "cpp_git_testEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "cpp_git_testEditor Linux Debug Build",
+			"program": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"
+			],
+			"cwd": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "cpp_git_testEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "cpp_git_testEditor Linux DebugGame Build",
+			"program": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"
+			],
+			"cwd": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "cpp_git_testEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "cpp_git_testEditor Linux Development Build",
+			"program": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject"
+			],
+			"cwd": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/cpp_git_test.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/mnt/localvarasto/Documents/Applications/UnrealEngine/UnrealEngine"
+		}
+	]
+}
