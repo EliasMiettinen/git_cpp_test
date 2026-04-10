@@ -1,9 +1,0 @@
-{
-	"SourceFiles": [
-		"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test/cpp_git_test.Build.cs",
-		"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Plugins/UEGitPlugin-dev/Source/GitSourceControl/GitSourceControl.Build.cs",
-		"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_test.Target.cs",
-		"/mnt/localvarasto/Documents/Projects/Unreal/cpp_git_test/Source/cpp_git_testEditor.Target.cs"
-	],
-	"EngineVersion": "4.27.2"
-}
